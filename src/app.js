@@ -25,7 +25,7 @@ app.use(express.static(publicPath));
 app.get('', (req, res) => {
     // the file which have to render
     res.render('index', {
-        title: 'wether app',
+        title: 'weather app',
         name: 'Ranjan'
     });
 });
